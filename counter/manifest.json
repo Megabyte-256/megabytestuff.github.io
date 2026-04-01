@@ -14,7 +14,7 @@
   "icons": [
     {
       "src": "icon.png",
-      "sizes": "512x512",
+      "sizes": "463x455",
       "type": "image/png",
       "purpose": "any maskable"
     }
