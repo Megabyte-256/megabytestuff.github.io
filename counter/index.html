@@ -19,6 +19,11 @@ Online HTML, CSS and JavaScript editor to run code online.
   <button id="decrease" class="buttons">Decrease</button>
   <button id="custom" class="buttons">Custom</button>
   <script src="script.js"></script>
+  <script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
 </body>
 
 </html>
